@@ -1,8 +1,11 @@
 ﻿using System;
 
-namespace TokenProject.Core
+namespace TokenProject.Core.Utilities.Security.Jwt
 {
-    public class Class1
+    public class AccessToken
     {
+        public String Token { get; set; }
+
+        public DateTime Expiration { get; set; }
     }
 }
